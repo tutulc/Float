@@ -1,0 +1,233 @@
+/* ****************Global Classes********** */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   section{
+    padding: 75px 0px;
+    text-align: center;
+    width: 100%;
+    float: left;
+   }
+   .container{
+       width: 90%;
+       margin: auto;
+   }
+   .underline{
+    border: 2px solid black;
+    width: 8%;
+    display: block;
+    margin: 20px auto;
+   }
+   .heading{
+    font-size: 40px;
+    line-height: 48px;
+    word-spacing: 5px;
+    letter-spacing: 0.7px;
+    font-family: 500;
+   }
+   .sub-heading{
+    }
+    p{
+    font-size: 16px;
+    line-height:24px;    
+    }
+    .mini-heading{
+
+    }
+   /* header  */
+   header{
+       float: left;
+       width: 100%;
+       background-color: blue;
+       padding: 50px 0px;
+       color: white;
+       text-align: center;
+   }
+   nav{
+       width: 100%;
+       float: left;
+   }
+   .logo-part{
+       width: 50%;
+       float: left;
+       text-align: left;
+   }
+   .logo-part image{
+   }
+   .manu-part{
+       width: 50%;
+       float: left;
+   }
+   .manu-part ul{
+       margin: 12px 0px;
+   }
+   .manu-part li{
+       list-style: none;
+       display: inline-block;
+       margin: 0px 10px;
+   }
+   .manu-part a{
+       font-size: 18px;
+       font-weight: 500;
+       color: aqua;
+       text-transform: uppercase;
+       transition: ease 0.5s;
+     }
+     .manu-part a:hover{
+        background-color: rgb(165, 42, 42);
+        border-radius: 1px;
+    }
+   .hero{
+       width: 100%;
+       float: left;
+       padding: 110px 0px;
+   }
+   .hero h1{
+       width: 80%;
+       font-size: 40px;
+       margin: auto;
+   }
+   .hero button{
+       width: 220px;
+       padding: 15px;
+       font-size: 16px;
+       text-transform: uppercase;
+       background: aquamarine;
+       color: black;
+       font-weight: 500;
+       margin-top: 50px;
+   }
+   .hero button::hover{
+   }
+  /* ***********service section*********  */
+  #service{
+   background-color: green;
+   color: white;
+  }
+  .service-box-part h2,
+   .service-writng-part p{
+   width: 50%;
+   margin: auto;
+  }
+  .service-writng-part{
+    width: 100%;
+    float: left;
+  }
+  .service-box-part {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .service-box{
+    width: 25%;
+    float: left;
+    padding: 10px;
+  }
+  .service-box img{
+  }
+  .service-box h2 {
+    margin: 10px auto;
+  }
+  .service-box p{
+ } 
+
+ /* **********Team section******* */
+ #team{
+ background-color: tomato;
+ }
+ .team-box-part h2,
+  .team-writng-part p{
+ width: 50%;
+ margin: auto;
+ }
+ .team-writng-part{
+  width: 100%;
+  float: left;
+ }
+ .team-box-part {
+  width: 100%;
+  margin-top: 50px;
+ }
+ .team-box{
+  width: 25%;
+  float: left;
+  padding: 10px;
+ }
+ .team-box img{
+ }
+ .team-box h2 {
+  margin: 10px auto;
+ }
+ .team-box ,icons{
+  margin-top: 20px;
+ }
+ .icons i{
+  background: gold;
+  padding: 10px;
+  color: blueviolet;
+ font-size: 20px;
+ margin: 0px 6px;
+ border-radius: 100%;
+ width: 40px; 
+ }
+   /* ************Contact section******* */
+ #Contact{
+  background: magenta;
+  color: white;
+ }
+ .contact-box-part h2,
+  .contact-writng-part p{
+ width: 50%;
+ margin: auto;
+ }
+ .contact-writng-part{
+  width: 100%;
+  float: left;
+ }
+ .contact-box-part{
+  width: 100%;
+  float: left;
+ } 
+ form{
+  text-align: center;
+ }          
+ .form-upper-part{
+width:60%;
+margin: auto;
+ }
+ .form-upper-part input{
+width: 49%;
+padding: 10px;
+background: teal;
+color: white;
+ }
+ .form-lower-part{
+  width: 60%;
+  margin: 12px auto;
+}
+.form-lower-part textarea{
+padding: 10px;
+background: rgba(191, 255, 0, 0.575);
+color: aliceblue;
+width: 99%;
+}
+#submit-btn{
+display: block;
+width: 220px;
+padding: 15px;
+font-size: 16px;
+text-transform: uppercase;
+background: aquamarine;
+color: black;
+font-weight: 500;
+margin: 10px auto 0px;
+}
+input::placeholder,
+textarea::placeholder{
+  color:aliceblue;
+}
